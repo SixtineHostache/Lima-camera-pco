@@ -403,6 +403,7 @@ enum enumPcoFamily
     DimaxHS2 = 1 << 10,
     DimaxHS4 = 1 << 11,
     camRAM = 1 << 12,
+    Pixelfly = 1 << 13,
 };
 
 enum enumInterfaceTypes
@@ -897,6 +898,7 @@ namespace lima
             void _init();
             void _init_edge();
             void _init_dimax();
+			//void _init_pixelfly();
 
             void _pco_SetPixelRate(int &error);
             // char *_pco_SetPixelRate(int &error);
