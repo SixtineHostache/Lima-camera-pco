@@ -898,7 +898,6 @@ namespace lima
             void _init();
             void _init_edge();
             void _init_dimax();
-			//void _init_pixelfly();
 
             void _pco_SetPixelRate(int &error);
             // char *_pco_SetPixelRate(int &error);
